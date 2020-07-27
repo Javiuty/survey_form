@@ -1,3 +1,11 @@
+/* COLORS */
+:root {
+	--color-white: #f3f3f3;
+	--color-darkblue: #1b1b32;
+	--color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+	--color-green: #37af65;
+}
+
 /* BASE */
 * {
   box-sizing: border-box;
@@ -11,4 +19,13 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
+}
+
+/* HEADER */
+.header {
+  
+}
+
+.header__title {
+
 }
