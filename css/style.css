@@ -3,7 +3,8 @@
 	--color-white: #f3f3f3;
 	--color-darkblue: #1b1b32;
 	--color-darkblue-alpha: rgba(27, 27, 50, 0.8);
-	--color-green: #37af65;
+  --color-green: #37af65;
+  --color-placeholder:#495057;
 }
 
 /* BASE */
@@ -19,13 +20,65 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: darkslateblue;
+  color: var(--color-white);
 }
 
 /* HEADER */
 .header {
-  
+  text-align: center;
+  color: var(--color-white);
+  margin-top: 5%;
+  margin-bottom: 1.7%;
+  line-height: 4.5rem;
 }
 
 .header__title {
+  text-align: center;
+  font-size: 2.9rem;
+  font-weight: 400;
+}
 
+.header__description {
+  font-weight: 200;
+  font-size: 1.85rem;
+  font-style: italic;
+}
+
+/* FORM */
+.form {
+  width: 50%;
+  margin: 0 auto;
+  background-color: var(--color-darkblue-alpha);
+  opacity: .85;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+
+}
+
+.label {
+ /* Aqui va lo de las etiquetas en teoría */ 
+}
+
+.input-text {
+  width: 100%;
+  margin-top: 1.5%;
+  margin-bottom: 4%;
+  border-radius: 3px;
+  height: 4rem;
+  padding-left: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.input-text::placeholder {
+  color: var(--color-placeholder);
+  
+}
+
+.optional {
+  font-weight: 300;
+  font-size: 1.5rem;
 }
