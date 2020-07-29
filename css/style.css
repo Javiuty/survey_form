@@ -87,3 +87,10 @@ body {
   font-weight: 300;
   font-size: 1.5rem;
 }
+
+.radio {
+  margin-right :1.5% ;
+  min-height: 2rem;
+  min-width: 2rem;
+  margin-top: 2.5%;
+}

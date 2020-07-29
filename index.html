@@ -18,12 +18,25 @@
     </header>
     <section class="form">
       <form action="POST" id="form">
-        <label class="label" for="name">Name</label> <br>
+        <label class="label" for="name">Name</label> 
         <input class="input-text" type="text" id="name" required placeholder="Enter your name"/>
-        <label for="email" class="label">Email</label><br>
+        <label for="email" class="label">Email</label>
         <input type="email" class="input-text" id="email" required placeholder="Enter your email">
         <label for="age" class="label">Age<span class="optional"> (optional)</span></label>
         <input type="number" min="0" max="120" class="input-text" placeholder="Age">
+        <label for="role" class="label">Which option best describes your current role?</label>
+        <select id="role" class="input-text">
+          <option disabled selected>Select your current role</option>
+          <option>Student</option>
+          <option>Full time job</option>
+          <option>Full time learner</option>
+          <option>Prefer not to say</option>
+          <option>Other</option>
+        </select>
+        <label for="recommend" class="label">Would you recommend freeCodeCamp to a friend?</label><br>
+        <input class="radio" type="radio" name="recommend" id="recommend">Definetly</input><br>
+        <input class="radio" type="radio" name="recommend" id="recommend">Maybe</input><br>
+        <input class="radio" type="radio" name="recommend" id="recommend">Not sure</input><br>
       </form>
     </section>
   </body>
