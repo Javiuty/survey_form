@@ -19,11 +19,11 @@
     <section class="form">
       <form action="POST" id="form">
         <label class="label" for="name">Name</label> <br>
-        <input class="input-text" type="text" id="name" placeholder="Enter your name"/>
+        <input class="input-text" type="text" id="name" required placeholder="Enter your name"/>
         <label for="email" class="label">Email</label><br>
-        <input type="email" class="input-text" id="email" placeholder="Enter your email">
+        <input type="email" class="input-text" id="email" required placeholder="Enter your email">
         <label for="age" class="label">Age<span class="optional"> (optional)</span></label>
-        <input type="number" class="input-text" placeholder="Age">
+        <input type="number" min="0" max="120" class="input-text" placeholder="Age">
       </form>
     </section>
   </body>
