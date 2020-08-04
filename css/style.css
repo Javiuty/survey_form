@@ -94,3 +94,39 @@ body {
   min-width: 2rem;
   margin-top: 2.5%;
 }
+
+.textarea {
+  width: 100%;
+  height: 14rem;
+  border-radius: 1px;
+  border: none;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  font-family: inherit;
+}
+
+.submit {
+  width: 100%;
+  background-color: var(--color-green);
+  color: var(--color-white);
+  border: none;
+}
+
+/* UTILITIES */
+.margin-bottom-small {
+  margin-bottom: 5%;
+}
+
+.margin-bottom-medium {
+  margin-bottom: 10%;
+}
+
+.margin-top-small {
+  margin-top: 2.5%;
+}
+
+.check {
+  height: 1.8rem;
+  width: 1.8rem;
+  margin-right: 1%;
+}

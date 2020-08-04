@@ -36,7 +36,41 @@
         <label for="recommend" class="label">Would you recommend freeCodeCamp to a friend?</label><br>
         <input class="radio" type="radio" name="recommend" id="recommend">Definetly</input><br>
         <input class="radio" type="radio" name="recommend" id="recommend">Maybe</input><br>
-        <input class="radio" type="radio" name="recommend" id="recommend">Not sure</input><br>
+        <input class="radio margin-bottom-small" type="radio" name="recommend" id="recommend">Not sure</input><br>
+        <label for="role" class="label">What is your favorite feature of freeCodeCamp?</label>
+        <select id="role" class="input-text">
+          <option disabled selected>Select an option</option>
+          <option>Challenges</option>
+          <option>Projects</option>
+          <option>Comunity</option>
+          <option>Open Source</option>
+        </select>
+        <label for="role" class="label margin-bottom-small">What would you like to see improved? <span class="optional">(Check all that apply)</span></label><br/>
+        <input class="checkbox check margin-top-small" type="checkbox" name="improved">
+        <label>Front-end Projects</label><br/>
+        <input class="checkbox check" type="checkbox" name="improved">
+        <label>Back-end Projects</label><br/>
+        <input class="checkbox check" type="checkbox" name="improved">
+        <label>Data Visualization</label><br/>
+        <input class="checkbox check" type="checkbox" name="improved">
+        <label>Challenges</label><br/>
+        <input class="checkbox check" type="checkbox" name="improved">
+        <label>Open source Community</label><br/>
+        <input class="checkbox check" type="checkbox" name="improved">
+        <label>Gitter help rooms</label><br/>
+        <input class="checkbox check" type="checkbox" name="improved">
+        <label>Videos</label><br/>
+        <input class="checkbox check" type="checkbox" name="improved">
+        <label>City meetups</label><br/>
+        <input class="checkbox check" type="checkbox" name="improved">
+        <label>Wiki</label><br/>
+        <input class="checkbox check" type="checkbox" name="improved">
+        <label>Forum</label><br/>
+        <input class="checkbox check margin-bottom-small" type="checkbox" name="improved">
+        <label>Additonal Courses</label><br/>
+        <label for="role" class="label">Any comments or suggestions?</label><br/>
+        <textarea class="textarea margin-top-small" placeholder="Enter your comments here..."></textarea>
+        <button class="submit margin-top-small" type="submit">Submit</button>
       </form>
     </section>
   </body>
