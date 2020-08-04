@@ -24,6 +24,20 @@ body {
   color: var(--color-white);
 }
 
+/* BACKGROUND */
+.background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -10;
+  height: 231vh;
+  width: 99.4vw;
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Y-xiV3408Og4McJZTtcNPQHaE8%26pid%3DApi&f=1);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: .3;
+}
+
 /* HEADER */
 .header {
   text-align: center;
@@ -60,9 +74,6 @@ body {
 
 }
 
-.label {
- /* Aqui va lo de las etiquetas en teoría */ 
-}
 
 .input-text {
   width: 100%;
