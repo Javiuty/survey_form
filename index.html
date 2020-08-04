@@ -13,19 +13,19 @@
   <body>
     <div class="background"></div>
     <header class="header">
-      <h1 class="header__title">freeCodeCamp Survey Form</h1>
-      <h2 class="header__description">Thank you for taking the time to help us improve the platform</h2>
+      <h1 class="header__title" id=title>freeCodeCamp Survey Form</h1>
+      <h2 class="header__description" id="description">Thank you for taking the time to help us improve the platform</h2>
     </header>
     <section class="form">
-      <form action="POST" id="form">
+      <form action="POST" id="survey-form">
         <label class="label" for="name">Name</label> 
         <input class="input-text" type="text" id="name" required placeholder="Enter your name"/>
         <label for="email" class="label">Email</label>
         <input type="email" class="input-text" id="email" required placeholder="Enter your email">
         <label for="age" class="label">Age<span class="optional"> (optional)</span></label>
-        <input type="number" min="0" max="120" class="input-text" placeholder="Age">
+        <input type="number" id="number" min="0" max="120" class="input-text" placeholder="Age">
         <label for="role" class="label">Which option best describes your current role?</label>
-        <select id="role" class="input-text">
+        <select id="dropdown" class="input-text">
           <option disabled selected>Select your current role</option>
           <option>Student</option>
           <option>Full time job</option>
@@ -70,7 +70,7 @@
         <label>Additonal Courses</label><br/>
         <label for="role" class="label">Any comments or suggestions?</label><br/>
         <textarea class="textarea margin-top-small" placeholder="Enter your comments here..."></textarea>
-        <button class="submit margin-top-small" type="submit">Submit</button>
+        <button id="submit" class="submit margin-top-small" type="submit">Submit</button>
       </form>
     </section>
   </body>
